@@ -1,0 +1,88 @@
+/*inciando meu primeiro arquico ccs*/
+
+body {
+
+    color: #444;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); ;
+    min-height: 120vh;
+    
+}
+
+
+.container {
+    max-width: 650px;
+    height: 800 px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+
+}
+
+.profile{
+    margin-top: 100px;
+    margin-bottom: 56px;
+}
+
+.profile__header img{
+    width: 115px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: block;
+    margin:  24px  auto;
+}
+
+.profile__header h2 {
+    font-weight: 400;
+}
+
+.profile__header h1, .profile__header h2 {
+    margin: 0;
+}
+
+.profile__header,.profile__about {
+    text-align-last: center;
+}
+
+.profile__about div {
+   background-color: blueviolet;
+    padding: 16px;
+   margin: 56px;
+   
+}
+
+.links ul {
+    list-style: none;
+}
+.links a {
+    display: flex;
+    height: 56px;
+    border:solid #444 1px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.links a:hover {
+ border:#fff;
+ color: #fff;
+ 
+} 
+
+.links__item {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .profile__about {
+        font-size: 20px;
+    }
+}

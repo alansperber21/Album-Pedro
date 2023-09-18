@@ -1,0 +1,68 @@
+/* Fotos do nascimento do Pedro */
+
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,70,253,1) 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 650 px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15 px;
+}
+
+.profille {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.profile__header img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: block;
+    margin: 24px auto;
+
+}
+
+
+
+.profile__header h2 {
+    font-weight: 500;
+}
+
+.profile__header h1 h2 {
+    margin: 10;
+}
+.profile__header, .profile__about {
+    text-align: center;
+}
+
+.profile__about span {
+    font-weight: 1000;
+}
+
+.profile__about div {
+    padding: 16px;
+    margin: 56px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+
+.l1 {
+    display: inline-block;
+    padding: 10px 11px  ;
+    margin:  px -250px ;
+
+}
+
+.name {
+        display: flex;
+        margin: -35px 60px;
+    
